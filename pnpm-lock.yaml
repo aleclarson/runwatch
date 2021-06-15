@@ -1,0 +1,61 @@
+lockfileVersion: 5.3
+
+specifiers:
+  filespy: '*'
+  minimist: ^1.2.0
+  usage-and-quit: 0.0.1
+
+dependencies:
+  filespy: 1.2.4
+  minimist: 1.2.5
+  usage-and-quit: 0.0.1
+
+packages:
+
+  /@parcel/watcher/2.0.0-alpha.10:
+    resolution: {integrity: sha512-8uA7Tmx/1XvmUdGzksg0+oN7uj24pXFFnKJqZr3L3mgYjdrL7CMs3PRIHv1k3LUz/hNRsb/p3qxztSkWz1IGZA==}
+    engines: {node: '>= 10.0.0'}
+    requiresBuild: true
+    dependencies:
+      node-addon-api: 3.2.1
+      node-gyp-build: 4.2.3
+    dev: false
+
+  /binary-insert/1.2.1:
+    resolution: {integrity: sha512-CGsSYzBUL/QqnmL4CTwLQnnVBj5RqPCmVifo5SnqTSbH5heFPtDijsIZJCKmOaXowaYUiiDOc+eZUjpU6NdpMg==}
+    dev: false
+
+  /filespy/1.2.4:
+    resolution: {integrity: sha512-eEfawBwgA0vXsjaO3K2vkbmSoh3gdoID1z79VZsQStSL9WL2YPAEZRyjBSf7x1o6/ajttiFTeUBTkwR5nj6YCA==}
+    dependencies:
+      '@parcel/watcher': 2.0.0-alpha.10
+      binary-insert: 1.2.1
+      glob-regex: 0.3.2
+      slash: 3.0.0
+    dev: false
+
+  /glob-regex/0.3.2:
+    resolution: {integrity: sha512-m5blUd3/OqDTWwzBBtWBPrGlAzatRywHameHeekAZyZrskYouOGdNB8T/q6JucucvJXtOuyHIn0/Yia7iDasDw==}
+    dev: false
+
+  /minimist/1.2.5:
+    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
+    dev: false
+
+  /node-addon-api/3.2.1:
+    resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
+    dev: false
+
+  /node-gyp-build/4.2.3:
+    resolution: {integrity: sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg==}
+    hasBin: true
+    dev: false
+
+  /slash/3.0.0:
+    resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /usage-and-quit/0.0.1:
+    resolution: {integrity: sha1-6gwQ7OdwRVhDVry1zFkORiexz2s=}
+    dev: false

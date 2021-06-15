@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "gaze": "^1.0.0",
+    "filespy": "*",
     "minimist": "^1.2.0",
     "usage-and-quit": "0.0.1"
   },
